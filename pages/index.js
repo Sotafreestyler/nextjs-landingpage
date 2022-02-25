@@ -44,7 +44,7 @@ export default function Home() {
 
 
         <div className={styles.grid}>
-          <a href="https://www.instagram.com/sota_mu_fs/" className={styles.card}>
+{/*           <a href="https://www.instagram.com/sota_mu_fs/" className={styles.card}>
             <h2>Instagram &rarr;</h2>
             <p>フリースタイルフットボールについて発信しています！</p>
           </a>
@@ -52,9 +52,9 @@ export default function Home() {
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>TikTokアカウント &rarr;</h2>
             <p>サッカーのチュートリアルについて</p>
-          </a>
+          </a> */}
 
-          <a
+{/*           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
@@ -70,7 +70,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </a> */}
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
