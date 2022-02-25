@@ -30,7 +30,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          このサイトはNext.jsプロジェクトで作られています。{' '}
+          このサイトはNext.jsプロジェクトでそうたが作りました。{' '}
         </p>  
 
         <SliderImage src={`https://it-web-life.com/wp-content/uploads/2020/09/create_react_app.png`} />
