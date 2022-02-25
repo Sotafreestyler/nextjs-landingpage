@@ -1,6 +1,19 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import styled from 'styled-components'
+
+const MainContents = styled.p`
+    font-size: 18px;
+    color: blue;
+    padding-bottom: 4px;
+`
+
+const SliderImage = styled.img`
+  object-fit: cover;
+  height: 500px;
+  padding-bottom: 36px;
+`;
 
 export default function Home() {
   return (
@@ -13,31 +26,60 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <a href="#">LP制作</a>のテストです！
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+          このサイトはNext.jsプロジェクトで作られています。{' '}
+        </p>  
+
+        <SliderImage src={`https://it-web-life.com/wp-content/uploads/2020/09/create_react_app.png`} />
+        <SliderImage src={`https://it-web-life.com/wp-content/uploads/2020/09/create_react_app.png`} />
+        <SliderImage src={`https://it-web-life.com/wp-content/uploads/2020/09/create_react_app.png`} />
+        <SliderImage src={`https://it-web-life.com/wp-content/uploads/2020/09/create_react_app.png`} />
+        <SliderImage src={`https://it-web-life.com/wp-content/uploads/2020/09/create_react_app.png`} />
+        <SliderImage src={`https://it-web-life.com/wp-content/uploads/2020/09/create_react_app.png`} />
+        <SliderImage src={`https://it-web-life.com/wp-content/uploads/2020/09/create_react_app.png`} />
+
+
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://www.instagram.com/sota_mu_fs/" className={styles.card}>
+            <h2>Instagram &rarr;</h2>
+            <p>フリースタイルフットボールについて発信しています！</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h2>TikTokアカウント &rarr;</h2>
+            <p>サッカーのチュートリアルについて</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
+            <h2>制作実績一覧 &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
+
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h2>Deploy &rarr;</h2>
+            <p>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
+          </a>
+
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h2>Deploy &rarr;</h2>
+            <p>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
           </a>
 
           <a
